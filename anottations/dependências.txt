@@ -1,0 +1,20 @@
+//Todas as dependências que a aplicação precisa para rodar certo
+1: Inicio o projeto                 -   npm init -y
+
+2: Gerenciador de rotas             -   npm install express
+
+3: Para dar os tipos                -   npm install @type/express -D
+
+4: o decodificador de ts para js    -   npm install ts-node -D
+
+5: e o typescript                   -   npm install typescript -D
+
+6: Arquivo de configuração do ts    -   npx tsc --init
+
+7: Para não precisar reiniciar      -   npm install ts-node-dev -D
+
+8: Instalar o Knex                  -   npm install knex
+
+9: Instalar o banco sqlLite         -   npm install sqlite
+
+10: Módulos para gerenciar os cores -   npm install cors

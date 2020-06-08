@@ -1,0 +1,12 @@
+1° Para criar o banco de dados após criar as migrations
+    npx knex --knexfile knexfile.ts migrate:lastest
+
+
+    Para esta mensagem
+
+        Requiring external module ts-node/register       
+        sqlite does not support inserting default values.
+         Set the `useNullAsDefault` flag to hide this warning.
+          (see docs http://knexjs.org/#Builder-insert).
+    
+    colocar dentro do connection e knexfile.ts o parâmetro: useNullAsDefault: true
